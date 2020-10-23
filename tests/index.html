@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #ghost-text {
+                display: inline-block;
+                border: 1px solid #000;
+                min-height: 20px;
+                min-width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ghost-text">
+
+        </div>
+    </body>
+    <script src="../dist/main.js"></script>
+    <script>
+        (function(){
+            ghostText(document.getElementById('ghost-text'))
+        })();
+    </script>
+</html>
